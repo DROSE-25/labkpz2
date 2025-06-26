@@ -12,13 +12,14 @@
 ## Завдання 1: Початкова підготовка середовища
 1 Склонуйте репозиторій [```vite-react-boilerplate```](https://github.com/RicardoValdovinos/vite-react-boilerplate).
 ### Результат
-![Image](https://github.com/user-attachments/assets/635161bf-39fc-4fa9-b132-e50a7cfc5548)
+![](imageslb2/1.png)
+
 
 2 Встановіть усі залежності проєкту, використовуючи команду ```pnpm install```.
 
 У терміналі написав команду ```pnpm install``` аби встановити усі залежності.
 ### Результат
-![Image](https://github.com/user-attachments/assets/6d123242-532b-43da-baf1-bea6d8ba1628)
+![](imageslb2/2.png)
 
 3 Запустіть початковий скрипт сетапу проєкту (```pnpm run setup```).
 

@@ -25,7 +25,7 @@
 
 У терміналі написав команду ```pnpm run setup``` аби запустити початковий скрипт сетапу.
 ### Результат
-![Image](https://github.com/user-attachments/assets/d0ed4ea8-e0da-403f-b96e-7b9e96c2858c)
+![](imageslb2/3.png)
 
 ## Завдання 2: Аналіз структури файлу ```package.json```
 1 Опишіть у звіті призначення полів файлу ```package.json```: ```name```, ```author```, ```description```, ```version```, ```license```, ```repository```, ```scripts```, ```dependencies```, ```devDependencies```.
@@ -125,7 +125,7 @@
 
 Важливість: Перше джерело інформації для нових користувачів і розробників
 
-![Image](https://github.com/user-attachments/assets/51536157-ebd0-4d78-98d6-7452933fc805)
+![](imageslb2/51.png)
 
 ## ```.gitignore```
 Призначення: Визначає файли, які не відстежуються Git
@@ -134,7 +134,7 @@
 
 Важливість: Запобігає додаванню тимчасових, конфіденційних та згенерованих файлів у репозиторій
 
-![Image](https://github.com/user-attachments/assets/0a89cc9a-899e-476d-8f38-c1ce2467c089)
+![](imageslb2/52.png)
 
 ## ```LICENSE```
 Призначення: Визначає юридичні умови використання проекту
@@ -143,7 +143,7 @@
 
 Важливість: Регулює як інші можуть використовувати, змінювати та розповсюджувати код
 
-![Image](https://github.com/user-attachments/assets/a819ca9b-e582-4c13-ac25-f337608c3822)
+![](imageslb2/5.png)
 
 # Завдання 5: Аналіз роботи гіт-хуків Husky
 1 Дослідіть артефакти, які створюються після встановлення та налаштування бібліотеки Husky.
@@ -153,7 +153,7 @@
 - Файл ```commit-msg``` - скрипт, який перевіряє формат повідомлень комітів (зазвичай використовується з ```commitlint```)
 - Файл ```prepare-commit-msg``` (позначений як ```prepare*commit_msg```) - скрипт, який виконується перед редагуванням повідомлення коміту
 
-![Image](https://github.com/user-attachments/assets/1ec7a350-2289-4f80-b754-c21ec570ac84)
+![](imageslb2/6.png)
 
 Ці артефакти дозволяють:
 - ```commit-msg``` - забезпечувати дотримання єдиного стилю повідомлень комітів (наприклад, згідно з Conventional Commits)
@@ -187,41 +187,40 @@
 
 У нас є файл ```env__variebles.js```
 
-![Image](https://github.com/user-attachments/assets/e197baa9-0e85-4594-9d1f-c7688985b93d)
+![](imageslb2/7.png)
 
 Tепер запустимо файл за допомогою команди ```node ./env__variebles.js```
 ### Результат
 
-![Image](https://github.com/user-attachments/assets/d9724fdd-3aec-4df0-b96e-dd5b6bbb263f)
+![](imageslb2/8.png)
 
 Для рішення проблеми напишемо команду ```pnpm add dotenv```, що встановить бібліотеку ```dotenv```, яка дозволяє працювати з файлом ```.env```
 
-![Image](https://github.com/user-attachments/assets/c633d420-a3b4-4a15-ad2b-008441ec56fc)
+![](imageslb2/9.png)
 
 Тепер запустимо наш скрипт
 ### Результат
 
-![Image](https://github.com/user-attachments/assets/d0606c52-2def-4ab3-a753-9ed78f71b6b8)
+![](imageslb2/10.png)
 
 Як бачимо усе запустилось, і усе прийнялось за дефолтом. Тепер буде задавати і перевіряти у різні рівні змінних оточення:
 - Окремий запуск скрипта
 
-![Image](https://github.com/user-attachments/assets/1e531aa6-2d58-4bd8-99ff-523ffb8dabb1)
+![](imageslb2/11.png)
 
 - Cесія терміналу
 
-![Image](https://github.com/user-attachments/assets/ad6f484e-11ed-4081-8fa0-94982750efbc)
-
+![](imageslb2/12.png)
 - На рівні ОС
 Був написан ```bash``` скрипт у якому були написані змінні які потрібно було вивести:
 ```PORT=6000, API_KEY=my_secret_key, ENVIRONMENT=production```
 
-![Image](https://github.com/user-attachments/assets/cb4b9725-08c1-4fc8-a9fe-2a0a7ecf14fe)
+![](imageslb2/13.png)
 
 - ```dotEnv``` файл
 У файлі ```.env``` додав рядок ```PORT=5000``` і запустив файл ```env__variebles.js```
 
-![Image](https://github.com/user-attachments/assets/d114eb66-9087-401a-b7c5-dbd7b3a0a8ef)
+![](imageslb2/14.png)
 
 # Висновок
 У результаті дослідження структури проєкту vite-react-boilerplate було вивчено важливі аспекти конфігурації та роботи з проєктами:
